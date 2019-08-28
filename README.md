@@ -35,7 +35,7 @@ data
 
 Then, it creates a repo called `data` and recursively fills it with the contents of the `data` directory.
 
-The pipeline takes all the `%04d` files and combines them into a single directory in the output commit: `combine-data@master:/combined/`. A log with timestamps and the output of `time` is stored at `combine-data@master:/time.log`.
+The pipeline takes all the `%04d` files and combines them into a single directory in the output commit: `combine-data@master:/combined/`. A log with timestamps and the output of `time` is written to `combine-data@master:/time.log`.
 
 # A strange error...
 
